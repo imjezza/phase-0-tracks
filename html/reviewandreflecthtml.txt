@@ -1,0 +1,36 @@
+1. A browser is what you use to view webpages. it translates html and
+	css into a viewable format and displays it on your screen. Your 
+	computer and the browser are the client, while the server is 
+	where it gets its information from on the network youre accessing, 
+	whether that is the internet, or a local server intranet. rendering 
+	the process of the server sending you the info to your client
+2. HTML is the language used to build websites. Elements are chunks of your
+	website, such as divisions on the page, while tags generally make up
+	whats in these, like like paragraphs or the title section. attributes 
+	parts of elements that define it, doing things like changing colors or 
+	setting up tables. block elements are entire sections that are defined
+	one way, while inline elements are most parts of those sections that 
+	are more uniquely defined. inline elements are normally in block elements
+	while block elements are not normally in inline elements, though they
+	can be in other block elements. 
+3. Definitions of some various elements: the head of the document stores general 
+	information on the document, as well as containing the title. the body
+	of a website is where most of the website, such as paragraphs, which are
+	sections of text, links, photos, and other various components of your 
+	website. forms are used to gather information from your visitor, that 
+	is submitted for a variety of uses such as logging in, placing an order
+	for goods or services, or scheduling appointments. div is used more for 
+	styling purposes, theyre broad containers that direct flow and group 
+	similar elements together. span is similar to dev, but is an inline 
+	element whereas div is a block element.
+
+	the select element is used to give the user a drop down of options to 
+	chooses from. h2 is a headline element, specifically the second one after 
+	h1. it is generally smaller though can be styled with css to any alternative
+	thats desired by you, and should always be used after h1 is used. ol and ul
+	are used to make lists, ordered and unordered respectively. ordered lists
+	use desending numbers, while unordered lists display dots or other shapes
+	instead. table is used to, well, build and place tables on your page. tr 
+	elements are placed in side the table, with td inside of them. tr is used
+	to define the row, while td is used to define data in the cells of the row
+	
