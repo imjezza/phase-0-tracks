@@ -4,18 +4,18 @@
 
 #body {
 	position: absolute;
-	margin-top: 50px;
-	margin-right: 50px;
+	margin-top: 130px;
+	margin-left: 500px;
 }
 
 #glasses {
 	position: absolute;
-	margin-top: 80px;
-	margin-right: 50px;
+	margin-top: 200px;
+	margin-left: 500px;
 }
 
 #hat {
 	position: absolute;
 	margin-top: 5px;
-	margin-right: 50px;
+	margin-left: 500px;
 }

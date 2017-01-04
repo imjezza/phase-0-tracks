@@ -1,0 +1,26 @@
+1. color - used to set the color of your text, multiple input types like hex codes or just the word of the color itself
+font - used to choose the font of your text, such as Helvetica or Times New Roman. can be tuned further using things like font-size or font-style to change sizes, positions and things like bolding or italics
+border - used to place borders around elements, such as around a box of text, or boxes around boxes of text. many varients available such as thickness or styling of the lines
+
+2. ways to link css rules to your html:
+
+you can link to a .css file itself, using something similar to this code in your Head section: <link rel="stylesheet" type="text/css" href="STYLESHEET.css"/>
+
+you can embed it directly into your html page, using the <style>  tags and adding the rules in between them
+
+and you can add them inline to your code directly, using something similar to this:
+<body style="color:blue; font:helvetica;>Your text etc</body>
+
+the best method is linking to a separate css stylesheet, as you can be more organized and use more detail without crowding your html pages, as well as applying rules to multiple pages
+
+3. selectors are used to select individual elements you want to style, instead of all elements of a certain type. one example is using .class selectors. you can use classes to name individual elements, like different <div>s, different things and styling them independently. an example tag to set a class would be <div class="welcome"></div>
+
+another selector you can use would be :nth-child(x). you would designate a number for x in this one, and it applies to that element in each parent element. an example would be to use this for lists, where you can designate every, say, third list item to be italics, or blue text.
+
+a third selector example would be :hover. this is used when you want the selected element to change when you hover your mouse courser over it without doing anything else. an example of this in use would be using it on hyperlinks, turning them a different color before they are clicked by the user.
+
+4. The box model basically relates to page layout. its the box that wraps around each element on your page, adding things like padding and borders to it to make it fit more neatly with your other elements or on the page itself.
+
+5. Cascading in css refers to how the rules affect each section, and then can be further defined for each subsection of a page. this means that you can use a certain font to be applied to your <html> tag, which would apply to the whole page as a general rule, but then cascading down you can apply a different font to say your <h1> tag, which will then designate a different style to only that part and take importance of what is used in parent tags like the html one.
+
+6. Responsive web design helps your site interact and work with the browser or page size you're currently using. This can be used to do things like format it differently when the page gets down to a certain pixel width like stacking div's on top of each other instead of side by side, or to make it so an image fits to the pages width, instead of allowing it to expand and create a bottom slide bar that you would have to move left to right to see the whole thing.  
