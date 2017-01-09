@@ -1,0 +1,22 @@
+Elevator algorithm
+
+- look at elevator door
+- locate directional buttons adjacent to elevator door
+	- determine if desired floor is higher or lower than current floor
+		- if desired floor is higher, press up button
+		- if desired floor is lower, press down button
+		- if already at desired floor, turn around and leave
+	- wait for door to open
+- once door opens, enter elevator
+	- turn around to face elevator door
+	- wait for door to close
+- once door is closed, locate and view floor buttons
+	-  determine desired floor
+		- if first button isn't desired floor, go to next button
+		- if next button isn't desired floor, go to next button
+- choose button of desired floor
+	- wait for elevator to move to desired floor
+- once elevator arrives, wait for doors to open
+- once doors open, exit elevator
+
+
