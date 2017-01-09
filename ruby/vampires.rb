@@ -40,13 +40,21 @@ while counter < employees
 		health = false
 	end
 
-	#allergy = nil
-	#puts "do you have any allergies? say done when youre done listing."
-	#until 
-
+	allergy_answer = nil
+	until allergy_answer == "sunshine" || allergy_answer == "done"
+		puts "do you have any allergies? say done when youre done listing."
+		allergy_answer = gets.chomp.to_s
+		if allergy_answer == "sunshine"
+			vampire = true
+		else
+			vampire = false
+		end
+	end
 
 	if name == "Drake Cula" || name == "Tu Fang"
 		puts "definitely a vampire"
+	elsif vampire
+		puts "probably a vampire"
 	else
 		if age_match == true || bread_answer == true || health == true
 			puts "probably not a vampire"
