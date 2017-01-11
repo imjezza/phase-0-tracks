@@ -1,21 +1,27 @@
-index = 0
+#ask our question
 
-#put to ask for string of characters that is the password
-puts "what would you like to encrypt?"
+puts "what is your password?"
 
-#get answer with gets.chomp and store as variable
-input = gets.chomp.to_s
+#get our answer, the password as a string
 
-#once variable determined, shift all letters one further in alphabet
+password = gets.chomp
+
+#build a method that prints the next letter of each letter in our string
 
 def encryptor(input)
+  index = 0
 	while index < input.length
-		puts input[index.next]
-		index += 1
-	end
+		if input[index] != " "
+		  print input[index].next
+	 	else
+      print input[index]
+ end
+ index += 1
+end
+end
 
+#run our method
+
+encryptor(password)
 #put the encrypted password
-
-
-
-#
+puts ""
