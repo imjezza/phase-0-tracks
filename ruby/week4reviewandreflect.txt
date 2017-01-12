@@ -1,0 +1,35 @@
+1. a Variable is used to represent data in a program. an example would be using "X", which is then defined using X = /whatever your data is/. a programmer will use a variable in place of a real bit of data as that value may change, or have multiple values. 
+
+2. ruby will display the first_name value, and the add the last_name value to it, displaying "AbrahamLincoln"
+
+3. 
+string - basically, a line of text, using numbers and punctuation as well. an example of this is what comes after using /puts/, like [puts "hello, world!"], where the text in quotes is the string.
+interger -  these are numbers without decimals, whole numbers. an example of where you would use this is setting a value for a variable, like "x = 2"
+float - these are numbers with decimals in them. 
+nil - its nothing. it sets a variable to empty. this can be used to leave spaces blank in things like equations and tables
+boolean - these are true and false values. you can use these to set variables to these values to be used for something such as if/else 
+
+4. an algorithm is your code, its the whole program laid out and what it does.
+
+5. two common types of algorithms are hashing and arrays
+
+6. a method is a program built inside your program that performs a function, and can be invoked from other parts of your program
+
+7. 
+return value - this is used to display the result of running your method, displaying it on the screen
+side effect - this is something other than returning a value that happens when you run a method, such as /puts/ displaying info on your screen
+parameter - this is a variable, which refers to one of your inputs used in your method
+argument - this is mostly interchangable with parameter. 
+implicit return - this is the idea that a return is implied on your method, where you dont have to use the return command, it will do it automatically because of how ruby is set up
+
+8. global and method scope relate to where your variables are defined, with global outside a method so it can be used across your program, and method inside your function so it only applies in there
+
+9. control flow is like order of operations for your program, its how we determine what will run first or what will be calculated first. you can use control flow to make sure your program will run correctly and orderly
+
+10.
+loop - this causes a function to run until a set limit is reached
+if - this tells the program to do this function under this factor, and comes first in if/else/elsif flow
+else - the final stop in an if/else/elsif method, as it states that if any of the other options have not hit the criteria for this data yet, then they do this
+elsif - basically a continuation on if, can be repeated multiple times
+while - used to say that while your program is in a certain state, or something is true or false, this action happens
+until - used to say that until a criteria is met, this should happen. somewhat interchangable with while
