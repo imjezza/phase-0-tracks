@@ -5,6 +5,12 @@ class Puppy
     toy
   end
 
+# define speak methond and iterate using times class
+def speak(repetitions)
+	repetitions.times (puts "woof!")
+end
+
+
 end
 
 # driver code
