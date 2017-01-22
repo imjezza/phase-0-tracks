@@ -1,0 +1,3 @@
+guessing game
+
+this is a game based on a user having to guess the word, like hangman. we will start with one user entering the word to be guessed, and the second user guessing. you will get guesses equal to the amount of letters in the word, to keep it simple. 
