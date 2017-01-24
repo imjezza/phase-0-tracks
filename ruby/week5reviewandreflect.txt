@@ -1,0 +1,13 @@
+1. Data structures are useful in programming because the can be used to hold, and classify, large amounts of data that can be manipulated, filtered, etc as needed
+
+2. an array is a data structure used to hold what you could basically call a list of data. it can contain strings, booleans or intergers, is not nessecarily ordered in any way. its contained with square brackets and entries are separated by commas
+3. two examples of data sets arrays might be good for are all of a classes student grade averages, and a list of names stored as strings.
+
+4. a hash is similar to an array but differs in that each value also has a key, basically a secondary value connected to the first. its containted in curly brackets, and each key is separated from its value by => between them.
+5. hashes could be good for containing grades in a class connected to the students name, that can be updated as grades change, or also listing states with their capitals. 
+
+6. it helps us perform an action based on what we want to return, and performs it until we get what we want returned, instead of us having to write the same code over and over to get our return
+7. an example of real life iteration would be going through ever key in an unfamiliar key ring to find the right one to open the lock
+
+8. a block is a way to group code in ruby. it can be contained using the curly braces, or a multi line starting with "do" and ending in "end"
+9. a block parameter is the variable you put between the pipe symbols |x| and its value is taken from each index item in your hash or array

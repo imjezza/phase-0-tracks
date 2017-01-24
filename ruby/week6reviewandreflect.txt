@@ -1,0 +1,11 @@
+1. classes are groupings that include both attributes, which are characteristics, as well as methods, which dictate behaviours of the class. an instance variable is a variable started with @, that is able to be used throughout the whole class, and is not limited like variables can be to something like a single method in the class. instance methods work with an instance, and can be only called on a specific instance of a class. 
+
+2. attributes are characteristics of the class. they can be things such as color, gender, size, and quantity of the object we are working on
+
+3. an example of a real world object could be a building. attributes that could be assigned would be things like how many floors it has or its height, the number of windows, its address and what kind of roof it has
+
+4. the initalize method runs for every instance of your class that is run, caused by the .new tag. its a method that runs for every new instance of your class thats run
+
+5. modules are sets of methods that we group so they can run together, and be called as that group whenever we need them
+
+6. modules are used in a few ways. one way is compartmentalization, which keeps things in your code more organized, and also helps when you have multiple people working on one project so they done end up overwriting one anothers methods and work. another way modules can be used is as mixins. this mixes them into different methods, which may be themselves very different, but use something similar to get their outcome. an example for this would be a class for dogs, and a class for cats. two very different kinds of classes, but you might use the same module for movement or walking for both of them, because they share a similar behaviour here.
