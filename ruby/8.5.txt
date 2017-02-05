@@ -1,0 +1,32 @@
+8.5 
+
+So far, you've been learning a lot of different technologies, without much idea of how they go together. Great news: the rest of this course is about connecting technologies that you're already familiar with.
+
+You know about peanut butter. You know about chocolate. But surely we can all agree that the true magic happens when peanut butter and chocolate combine to become a snack so heavenly that you might stop writing curriculum just so you can go buy an entire bag of it to spend the afternoon with.
+
+Well ... regardless, you get the metaphor.
+
+escalator.jpg
+
+That escalated quickly, but then again, so will your programming skills once you start combining technologies.
+
+Anyway. The video below holds the secret to including persistent data in your Ruby programs. NOTE: Cloud-based environments will be slower than personal computers, so if you code along in a Cloud 9 env, do something less ambitious than creating a full-sized kitten explosion. Maybe just do a kitten firework (100 kittens).
+
+
+
+You can find the code from this video in phase-0-tracks/databases/kitten_maker.
+
+Releases 0-3: Build Something Awesome
+So far in this course, you've had to satisfy a rubric by reading for detail, asking questions to resolve ambiguity, and building programs to spec. These are crucial skills for a developer.
+
+But learning and self-development skills are important, too:
+
+What do you do with your free time?
+How do you find ways to push yourself when there's no one around to tell you what to do?
+How do you find new ideas to explore when we aren't providing them as bullets?
+Your answers to these questions will have a huge impact on your success, and today is your first official opportunity to practice.
+
+DO THE THING
+Write a Ruby program that uses persistent data to make your life better, or makes someone else's life better. Find several opportunities to try something not explicitly shown in the video. Can users create data? Retrieve it? Manipulate it? It's up to you. Push yourself, and decide with integrity when you are finished. Note that you do not need to use classes in this assignment -- keeping a class instance and a database row in sync is a lot of work, so that might be too much to tackle.
+
+Submit the GitHub URL of your Ruby file (or project directory if you have multiple Ruby files) to complete this challenge. You can also tag your teacher on your PR for a code review. Optionally, show off your project on Slack! In an exception to our typical policies, it's okay to share your full solution.
