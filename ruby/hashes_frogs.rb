@@ -36,3 +36,48 @@ else
   interior_questionare[:newsletter] = false
 end
 
+
+#give the user a chance to change something
+
+puts "Do you need to change any answers?"
+puts "no, name, address, phone number, email, theme, chairs"
+change = gets.chomp
+
+
+#start our conditionals, if things need to be changed, and then printing our hash
+if change == "no"
+p interior_questionare
+
+elsif change == "name"
+	puts "What is actually your name?"
+	interior_questionare[:name] = gets.chomp
+p interior_questionare
+
+elsif change == "address"
+	puts "So whats your real address?"
+	interior_questionare[:address] = gets.chomp
+p interior_questionare
+
+elsif change == "phone number"
+	puts "Can I have your number?"
+	interior_questionare[:phone_number] = gets.chomp
+p interior_questionare
+
+elsif change == "email"
+	puts "Whats the email address?"
+	interior_questionare[:email] = gets.chomp
+p interior_questionare
+
+elsif change == "theme"
+	puts "Ok, so what theme should we do?"
+	interior_questionare[:theme] = gets.chomp
+p interior_questionare
+
+elsif change == "chairs"
+	puts "Alright tell me how many chairs you've got"
+	interior_questionare[:chairs] = gets.chomp.to_i
+p interior_questionare
+
+else
+  p interior_questionare
+end
