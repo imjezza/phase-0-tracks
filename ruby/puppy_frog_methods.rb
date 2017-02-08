@@ -67,7 +67,20 @@ rex.dog_years(3)
 rex.chases_tail(2)
 
 
-dodge = Car.new
-dodge.starter
-dodge.gas_pedal(1)
-dodge.horn(2)
+# dodge = Car.new
+# dodge.starter
+# dodge.gas_pedal(1)
+# dodge.horn(2)
+
+#creates array to store each instance created
+car_array = []
+
+#sets up iteration for desired amount of times
+50.times {car_array << Car.new}
+
+#iteration that calls our methods
+car_array.each do |car_instance|
+	car_instance.starter
+	car_instance.gas_pedal(1)
+	car_instance.horn(3)
+end
