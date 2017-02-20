@@ -1,0 +1,11 @@
+hangman style game
+
+first, a user inputs their word which will be guessed, and it is taken and stored as a variable
+
+then, the second user begins guessing the word, letter by letter
+
+guesses are limited, which will first be by the total letters in the word, and possibly expanding to allow a few extra tries
+
+after each guess, the total word, spaces and letters guessed correctdly, should be displayed
+
+message differs at the end depending on outcome

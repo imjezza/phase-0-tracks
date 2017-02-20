@@ -32,6 +32,6 @@ class Hangman
 	end
 end
 
-
+# driver code
 puts "what word should your friend guess?"
 game_word = Hangman.new(gets.chomp)
