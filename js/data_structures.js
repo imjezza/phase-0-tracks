@@ -13,7 +13,7 @@ function Car(make, model, color, year){
 	this.color = color;
 	this.year = year;
 
-	console.log("This " + year + " " + make + " is a " + color + + " " + model + ".")
+	console.log("This " + year + " " + make + " is a " + color + " " + model + ".")
 
 }
 
@@ -28,4 +28,5 @@ console.log(colours, horses)
 
 console.log(horse_colours)
 
-var my_car = new Car("Dodge", "Neon", "forest green", "1995")
+
+var myCar = new Car("Dodge", "Neon", "forest green", "1995")
